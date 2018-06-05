@@ -1,0 +1,117 @@
+    .card-md, .card-ios {
+        border-radius: 6px;
+        -webkit-box-shadow: 0 2px 12px 0 rgba(207, 233, 245, 1);
+        box-shadow: 0 2px 12px 0 rgba(207, 233, 245, 1);
+        padding: 0;
+    }
+    .projectlist{
+        padding: 0 16px !important;
+    }
+    .logoposted {
+        border: 2px solid #eff4fa;
+        padding: 10px;
+        align-self: flex-start;
+        margin-top: 20px !important;
+        min-height: 26px !important;
+        min-width: 26px !important;
+    }
+    .item-md ion-avatar img, .item-ios ion-avatar img {
+        width: 26px;
+        height: 26px;
+    }
+    h2 {
+        font-size: 1.55rem !important;
+        font-weight: 600 !important;
+        color: color($colors, primary) !important;
+    }
+    p span {
+        color: color($colors, primary) !important;
+    }
+    .toolbar-background-md, .toolbar-background-ios {
+        border: none !important;
+    }
+    ion-label{
+        white-space: normal;
+    }
+    ion-content, ul, li{
+        font-size: 0.875em;
+        color: color($colors, dark) !important;
+    }
+    ion-notes {
+        color: #778187;
+    }
+    .description {
+        padding: 3px 0 0;
+        font-size: 0.775em !important;
+        color: color($colors, dark) !important;
+    }
+    .bottomnotes .sep{
+        padding-top: 12px;
+        color: color($colors, light) !important;
+    }
+    .postedby{
+        color: color($colors, light) !important;
+    }
+    .btnwrapper button{
+        text-transform: uppercase;
+        font-size: 0.875em !important;
+    }
+    h3 {
+        font-size: 0.775em !important;
+        font-weight: 400 !important;
+        color: color($colors, light) !important;
+    }
+    .detail{
+        font-size: 0.75em !important;
+    }
+    ul,li{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    li.grnbg {
+        background: #d1f5e7;
+        border-radius: 4px;
+        padding: 3px 7px;
+        font-weight: 600;
+        color: #000000 !important;
+    }
+    .card-content-md, .card-content-ios {
+        padding: 0 16px 13px;
+    }
+    .toppadd li{
+        margin-top: 5px;
+    }
+    .skills{
+        overflow: hidden;
+    }
+    .skilldetails {
+        width: 70%;
+        float: left;
+    }
+    .btnwrapper {
+        width: 30%;
+        float: left;
+        text-align: right;
+    }
+    .btnwrapper button {
+        font-size: 0.975em;
+    }
+    .btnwrapper > .button-md,.btnwrapper > .button-ios {
+        padding: 0 1.75em;
+        -webkit-box-shadow: 0px 0px 0px 0px transparent !important;
+        box-shadow: 0px 0px 0px 0px transparent !important;
+        height: 3rem;
+    }
+    .card .note-md, .card .note-ios {
+        font-size:  0.6em !important;
+    }
+    .card .note-md p, .card .note-ios p {
+        font-size:  1.2375em !important;
+        font-weight: 600;
+    }
+    .bottomnotes{
+        background: #fafbfc;
+        padding: 0 5px 5px;
+    }

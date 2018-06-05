@@ -1,0 +1,42 @@
+page-register {
+    
+    .logoimg{
+        margin: 3.5rem auto 0.675rem;
+        width: 55%;
+        text-align: center;
+    }
+    .formlogin{
+        margin: 0 auto;
+        background: transparent !important;
+        width: 82%;
+    }
+    .forgotbtn{
+        color: #4e5c65 !important;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+    .forgotbtn .button-md, .forgotbtn .button-ios{
+        box-shadow: 0px transparent !important;
+        -webkit-box-shadow: 0px transparent !important;
+    }
+    .button-clear-md:hover:not(.disable-hover){
+        background: transparent;
+    }
+    .submitbtn{
+        margin-top: 15px;
+    }
+    .registerbtn p{
+        padding: 10px 0 0;
+        margin: 0;
+        display: inline-block !important;
+        color: #4e5c65;
+    }
+    .registerbtn button{
+        display: inline-block !important;
+        padding: 0 !important;
+        margin: -10px 0 0 !important;
+        text-transform: initial;
+        text-decoration: underline;
+        font-size: 1.3rem;
+    }
+}

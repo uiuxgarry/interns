@@ -1,0 +1,72 @@
+page-projectdetail {
+    ion-content p, ion-content ul{
+        font-size: 0.875em !important;
+    }
+    .projectheading {
+        font-weight: 700 !important;
+        font-size: 1.2em !important;
+        text-transform: uppercase;
+    }
+    .bottomnotes {
+        padding: 0 13px 5px;
+    }
+    .skilldetails{
+        width: 100%;
+    }
+    .titlecard h4{
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .titlecard p{
+        padding-top: 10px;
+    }
+    .titlecard h4, .titlecard p{
+        color: color($colors, dark) !important;
+    }
+    .card-content-md, .card-content-ios {
+        padding: 13px 16px;
+    }
+    .dataanalysis p{
+        padding: 10px 0;
+    }
+    .nolist li{
+        display: list-item;
+        list-style-type: decimal !important;
+        padding-top: 5px;
+        font-weight: 400;
+        margin-left: 15px;
+        font-size: 0.975em;
+    }
+    ul{
+        display: block;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        font-size: 0.975em;
+    }
+    .nolist > li > ul.sqlist li{
+        display: list-item;
+        list-style-type: square !important;
+        padding-top: 5px;
+        font-weight: 400;
+        margin-left: 15px
+    }
+    .line{
+        border-top: 1px solid #d6d9db;
+        height: 1px;
+        line-height: 1px;
+        margin: 0 18px 9px;
+    }
+    .btnrow{
+        background: #eff4fa !important;
+        text-align: center;
+        bottom: 0;
+        padding: 5px 10px;
+        margin: 0;
+    }
+    .btnrow button{
+        width: 100%;
+    }
+    .toolbar-background-md, .toolbar-background-ios{
+        background: transparent !important;
+    }
+}

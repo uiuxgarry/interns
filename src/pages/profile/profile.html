@@ -1,0 +1,355 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="setting()">
+        <ion-icon class="setting"><img src="assets/imgs/settings.svg"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+<div class="primarybg profilebg"></div>
+<ion-content class="personalinfo">
+
+  <ion-item>
+    <ion-avatar center item-center class="profilepic">
+      <img src="assets/imgs/profilepic.png">
+    </ion-avatar>
+  </ion-item>
+
+  <ion-card class="profilesetup stdprofile">
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-card-content>
+      <h1>Kinesis Money</h1>
+      <p>9541235668 | kmoney@gmail.com</p>
+      <p>Chandigarh</p>
+      <button ion-button (click)="create()" class="kycbtn">Complete KYC</button>
+      <p>Verify your Profile by uploading your college ID</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="cardposition">
+
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-item class="projectlist">
+      <div class="titlecard">
+      <h4><img src="assets/imgs/skills.svg" class="iconview" /> Skills</h4>
+      </div>
+    </ion-item>
+
+    <ion-card-content class="skills lang">
+      <div class="skilldetails">
+        <h3>Your Languages</h3>
+        <ul class="toppadd">
+          <li class="grnbg greybrd">Python</li>
+          <li class="grnbg greybrd">Java</li>
+        </ul>
+      </div>
+    </ion-card-content>
+
+    <ion-card-content class="skills lang">
+      <div class="skilldetails">
+        <h3>Technical skills</h3>
+        <ul class="toppadd">
+          <li class="grnbg greybrd">Python</li>
+          <li class="grnbg greybrd">Java</li>
+        </ul>
+      </div>
+    </ion-card-content> 
+
+  </ion-card>
+
+  <ion-card class="cardposition">
+
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-item class="projectlist">
+      <div class="titlecard">
+      <h4><img src="assets/imgs/education.svg" class="iconview" /> Education</h4>
+      </div>
+    </ion-item>
+
+    <ion-card-content>
+        <h3>School Name</h3>
+        <p class="detail toppadd">Lovely Professional University</p>
+    </ion-card-content>
+    <ion-card-content>
+      <div class="pagehalf">
+        <h3>Enroll Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+      <div class="pagehalf">
+        <h3>Enroll Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>School Name</h3>
+        <p class="detail toppadd">Lovely Professional University</p>
+    </ion-card-content>
+
+    <div class="line"></div>
+    <ion-card-content>
+      <h3>School Name</h3>
+      <p class="detail toppadd">Lovely Professional University</p>
+  </ion-card-content>
+  <ion-card-content>
+    <div class="pagehalf">
+      <h3>Enroll Date</h3>
+      <p class="detail toppadd">May, 2018</p>
+    </div>
+    <div class="pagehalf">
+      <h3>Enroll Date</h3>
+      <p class="detail toppadd">May, 2018</p>
+    </div>
+  </ion-card-content>
+  <ion-card-content>
+      <h3>School Name</h3>
+      <p class="detail toppadd">Lovely Professional University</p>
+  </ion-card-content>
+
+  </ion-card>
+
+  <ion-card class="cardposition">
+
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-item class="projectlist">
+      <div class="titlecard">
+      <h4><img src="assets/imgs/education.svg" class="iconview" /> Work Experience</h4>
+      </div>
+    </ion-item>
+
+    <ion-card-content>
+        <h3>Company Name</h3>
+        <p class="detail toppadd">Outgrow Private Limited</p>
+    </ion-card-content>
+    <ion-card-content>
+      <h3>Position/Title</h3>
+      <p class="detail toppadd">Project Manager</p>
+    </ion-card-content>
+    <ion-card-content>
+      <h3>Website URL</h3>
+      <p class="detail toppadd">https://www.venturepact.com</p>
+    </ion-card-content>
+    <ion-card-content>
+      <div class="pagehalf">
+        <h3>Start Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+      <div class="pagehalf">
+        <h3>Working Status</h3>
+        <p class="detail toppadd">Currently working here</p>
+      </div>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Location</h3>
+        <p class="detail toppadd">Chandigarh</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Description</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card class="cardposition">
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-item class="projectlist">
+      <div class="titlecard">
+      <h4><img src="assets/imgs/projects.svg" class="iconview" /> Projects</h4>
+      </div>
+    </ion-item>
+
+    <ion-card-content>
+        <h3>Project Name</h3>
+        <p class="detail toppadd">Outgrow Private Limited</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Project URL</h3>
+        <p class="detail toppadd">https://www.outgrow.com</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Start Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>End Date</h3>
+        <p class="detail toppadd">August, 2018</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Project Status</h3>
+        <p class="detail toppadd">On Going</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Details</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+        <p class="detail toppadd para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card class="cardposition">
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <ion-item class="projectlist">
+      <div class="titlecard">
+      <h4><img src="assets/imgs/funfact.svg" class="iconview" /> Fun Fact</h4>
+      </div>
+    </ion-item>
+  
+    <ion-card-content>
+        <h3>Details</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+        <p class="detail toppadd para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+    </ion-card-content>
+
+    <div class="line"></div>
+
+    <ion-item class="projectlist cardposition">
+      <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+      <div class="titlecard">
+      <h4><img src="assets/imgs/gigs.svg" class="iconview" /> Gigs/Freelancer</h4>
+      </div>
+    </ion-item>
+  
+    <ion-card-content>
+        <h3>Company</h3>
+        <p class="detail toppadd">Outgrow</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Title</h3>
+        <p class="detail toppadd">Software Testing Engineer</p>
+    </ion-card-content>
+    <ion-card-content>
+      <div class="pagehalf">
+        <h3>Start Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+      <div class="pagehalf">
+        <h3>End Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Description</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <p class="detail toppadd para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+    </ion-card-content>
+
+    <div class="line"></div>
+
+    <ion-item class="projectlist cardposition">
+      <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+      <div class="titlecard">
+      <h4><img src="assets/imgs/volunteer.svg" class="iconview" /> Volunteer</h4>
+      </div>
+    </ion-item>
+  
+    <ion-card-content>
+        <h3>Organization Name</h3>
+        <p class="detail toppadd">Outgrow</p>
+    </ion-card-content>
+    <ion-card-content>
+      <div class="pagehalf">
+        <h3>Start Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+      <div class="pagehalf">
+        <h3>End Date</h3>
+        <p class="detail toppadd">May, 2018</p>
+      </div>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Description</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <p class="detail toppadd para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+    </ion-card-content>
+ 
+  <div class="line"></div>
+
+  <ion-item class="projectlist cardposition">
+      <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <div class="titlecard">
+    <h4><img src="assets/imgs/leadership.svg" class="iconview" /> Leadership</h4>
+    </div>
+  </ion-item>
+
+  <ion-card-content>
+      <h3>Organization Name</h3>
+      <p class="detail toppadd">Outgrow Private Limited</p>
+  </ion-card-content>
+  <ion-card-content>
+      <h3>Leadership Role</h3>
+      <p class="detail toppadd">Team Lead</p>
+  </ion-card-content>
+  <ion-card-content>
+    <div class="pagehalf">
+      <h3>Start Date</h3>
+      <p class="detail toppadd">May, 2018</p>
+    </div>
+    <div class="pagehalf">
+      <h3>End Date</h3>
+      <p class="detail toppadd">May, 2018</p>
+    </div>
+  </ion-card-content>
+  <ion-card-content>
+      <h3>Description</h3>
+      <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+      <p class="detail toppadd para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+  </ion-card-content>
+
+  <div class="line"></div>
+
+  <ion-item class="projectlist cardposition">
+    <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+    <div class="titlecard">
+    <h4><img src="assets/imgs/funfact.svg" class="iconview" /> Hobbies/Passion</h4>
+    </div>
+  </ion-item>
+
+  <ion-card-content class="skills lang">
+    <div class="skilldetails">
+      <h3>Your Languages</h3>
+      <ul class="toppadd">
+        <li class="grnbg greybrd">English</li>
+        <li class="grnbg greybrd">Hindi</li>
+      </ul>
+    </div>
+  </ion-card-content>
+
+  <ion-card-content>
+      <h3>Description</h3>
+      <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+  </ion-card-content>
+
+  <div class="line"></div>
+
+  <ion-item class="projectlist cardposition">
+      <div class="editicon"><img src="assets/imgs/edit.svg"></div>
+      <div class="titlecard">
+      <h4><img src="assets/imgs/resume.svg" class="iconview" /> Video Resume</h4>
+      </div>
+    </ion-item>
+  
+    <ion-card-content>
+        <h3>Video URL</h3>
+        <p class="detail toppadd">https://www.youtube.com/watch?v=b8I-7Wk_Vbc&start_radio=1&list=RDb8I-7Wk_Vbc</p>
+    </ion-card-content>
+    <ion-card-content>
+        <h3>Description</h3>
+        <p class="detail toppadd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </ion-card-content>
+
+</ion-card>
+
+    <ion-row class="profilebtn">
+      <ion-col style="text-align: center">
+        <button ion-button (click)="create()">Publish</button>
+      </ion-col>
+    </ion-row>
+
+</ion-content>

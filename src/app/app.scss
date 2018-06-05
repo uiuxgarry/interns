@@ -1,0 +1,164 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+ion-content{
+    font-family: 'Open Sans';
+    color: #4e5c65;
+    background: #eff4fa !important;
+}
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+    background-image: none !important;
+}
+.item-md ion-avatar ion-img, .item-md ion-avatar img,
+.item-ios ion-avatar ion-img, .item-ios ion-avatar img{
+    border-radius: 0;
+    width: 40px !important;
+    height: 40px !important;
+}
+.primarybg {
+    position: relative;
+    z-index: 1;
+    background: color($colors, primary);
+    height: 150px;
+}
+.label-md, .label-ios{
+    color: #4e5c65;
+    font-size: 1.375rem !important;
+    font-weight: 400;
+    padding: 0.3rem;
+}
+.item-md,.item-ios{
+    background: transparent !important;
+}
+.input{
+    background: #fff !important;
+    font-size: 1.3rem;
+}
+input::-moz-placeholder{
+    color: #b5bec4 !important;
+}
+ion-input, ion-select, ion-textarea{
+    border: 1px solid #dbdce1;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    font-size: 0.785em;
+}
+.button-md, .button-ios{
+    border-radius: 24px;
+    padding: 0 3.1em;
+    -webkit-box-shadow: 0px 0px 0px 0px transparent !important;
+    box-shadow: 0px 0px 0px 0px transparent !important;
+    text-transform: uppercase;
+}
+.item-md.item-block .item-inner, .item-ios.item-block .item-inner{
+    border: none !important;
+}
+
+.header-md::after, .header-ios::after, ion-navbar.toolbar{
+    background-image: none !important;
+}
+.toolbar-background-md, .toolbar-background-ios{
+    background: #0196d6;
+}
+.toolbar-title{
+    color: #fff;
+    font-weight: 400;
+}
+.toolbar-content{
+    text-align: center !important;
+}
+.back-button-icon{
+    color: #fff;
+}
+.padding-top{
+    margin-top: 10px !important;
+}
+.checkbox-md .checkbox-icon, .checkbox-ios .checkbox-icon{
+    border-radius: 2px;
+    border-color: color($colors, light);
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-md .checkbox-checked .checkbox-inner{
+    left: 5px;
+    top: 2px;
+}
+.checkbox-md .checkbox-checked, .checkbox-ios .checkbox-checked{
+    border-color: transparent;
+}
+.item-input .label-md, .item-select .label-md, .item-datetime .label-md{
+    color: color($colors, dark);
+}
+.button-md, .button-ios{
+    height: auto !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    font-size: 1.4rem;
+}
+.hidelabel{
+    visibility: hidden;
+}
+.line{
+    border-top: 1px solid #d6d9db;
+    height: 1px;
+    line-height: 1px;
+    margin: 0 18px 10px;
+}
+page-personalinfo{
+    .button-md, .button-ios{
+        width: 100%;
+    }
+    .item-label-stacked .text-input-md, .item-label-floating .text-input-md,
+    .item-label-stacked .text-input-ios, .item-label-floating .text-input-ios{
+        margin-top: 3px !important;
+        margin-bottom: 3px !important;
+    }
+    .label-md, .label-ios{
+        padding: 0;
+    }
+}
+.chip-md, .chip-ios{
+    background: #eff4fa;
+}
+.item-md, .item-ios{
+    padding-left: 0 !important;
+}
+
+.limitchar{
+    color: color($colors, danger) !important;
+    font-size: 0.775em !important;
+    text-align: right;
+    margin-top: -13px !important;    
+}
+.formlogin .item-md.item-block .item-inner,
+.formlogin .item-md.item-block .item-inner{
+    padding-right: 0 !important; 
+}
+.paddleft{
+    padding-left: 16px;
+}
+.btnwrapper.myappbtn > .button-md,.btnwrapper.myappbtn > .button-ios{
+    padding: 0.5rem 15px !important;
+}
+.cardpadd{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}

@@ -1,0 +1,58 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-buttons start left>
+        <button ion-button menuToggle>
+          <ion-icon name="back"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-title>Complete your Profile</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  <div class="primarybg profilebg"></div>
+  <ion-content class="personalinfo">
+
+    <ion-item>
+      <ion-avatar center item-center class="profilepic">
+        <img src="assets/imgs/camera.svg">
+      </ion-avatar>
+    </ion-item>
+    
+    <ion-card class="profilesetup">
+      <ion-card-content>
+        <div class="formlogin">
+          <ion-item>
+            <ion-label stacked>Full Name</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>Email</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>College Name</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>Passing Year</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>Mobile Number</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item>
+            <div class="uploadresume"><img src="../assets/imgs/upload.svg"> <p>Upload Resume</p></div>
+          </ion-item>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-row class="profilebtn">
+      <ion-col style="text-align: center">
+        <button ion-button (click)="create()">Create</button>
+      </ion-col>
+    </ion-row>
+
+  </ion-content>

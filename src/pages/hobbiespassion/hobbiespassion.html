@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Hobbies Passion</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  
+  <ion-card class="cardsetup">
+    <ion-card-content>
+      <div class="formlogin">
+        <ion-item>
+          <ion-label stacked>Your Hobbies</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <div class="chips">
+          <ion-chip #chip1>
+            <ion-label>Net Surfing</ion-label>
+            <button ion-button clear color="primary" (click)="delete(chip1)">
+              <ion-icon name="close-circle"></ion-icon>
+            </button>
+          </ion-chip>
+        </div>
+        <ion-item>
+          <ion-label stacked>Your Passion<p class="limitchar">300 character limit</p></ion-label>
+          <ion-textarea class="item-txtarea" placeholder="What motivates you? what drives you? Tell us what you're passionate about?" [(ngModel)]="description" rows="10"></ion-textarea>
+        </ion-item>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="profilebtn submitprofilebtn">
+    <ion-col style="text-align: center">
+      <button ion-button (click)="submitvideoresume()">Submit</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

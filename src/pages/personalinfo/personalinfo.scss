@@ -1,0 +1,39 @@
+.profilebg{
+    background: url(../assets/imgs/profilebg.png) no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.profilepic{
+    background: #eff4fa;
+    border: 2px solid #eff4fa;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 17px;
+    margin: 0 auto;
+}
+.profilesetup{
+    margin-top: -57px !important;
+    padding-top: 53px !important;
+}
+.primarybg{
+    height: 205px;
+}
+.profilepic .item-md ion-avatar img,
+.profilepic .item-ios ion-avatar img {
+    align-self: center !important;
+}
+.uploadresume{
+    border: 1px dashed #dbdce1;
+    border-radius: 6px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.uploadresume img{
+    width: 20px;
+    vertical-align: middle;
+}
+.uploadresume img, .uploadresume p{
+    display: inline !important;
+    color: color($colors, primary);
+}

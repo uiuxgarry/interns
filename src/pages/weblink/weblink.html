@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Web Link</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  
+  <ion-card class="cardsetup">
+    <ion-card-content>
+      <div class="formlogin">
+        <ion-item>
+          <ion-label stacked>Linkedin URL</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>GitHub URL</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Behance URL</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Wordpress Site</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="profilebtn submitprofilebtn">
+    <ion-col style="text-align: center">
+      <button ion-button (click)="submitdetails()">Submit</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

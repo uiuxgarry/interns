@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Video Resume</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  
+  <ion-card class="cardsetup">
+    <ion-card-content>
+      <div class="formlogin">
+        <ion-item>
+          <ion-label stacked>Video URL</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Video Description</ion-label>
+          <ion-textarea class="item-txtarea" placeholder="Add video description" [(ngModel)]="description" rows="10"></ion-textarea>
+        </ion-item>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="profilebtn submitprofilebtn">
+    <ion-col style="text-align: center">
+      <button ion-button (click)="submitweblink()">Submit</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

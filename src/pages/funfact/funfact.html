@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Fun Fact</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  
+  <ion-card class="cardsetup">
+    <ion-card-content>
+      <div class="formlogin">
+        <ion-item>
+          <ion-label stacked>Fun Fact<p class="limitchar">300 character limit</p></ion-label>
+          <ion-textarea class="item-txtarea" placeholder="Here are some suggestions for cool facts you can wow employers with (that they wouldn't find on your resume): &#34;I worked throughout high school to pay for my own colege education.&#34; or &#34;I studied abroad in Spain and was not allowed to speak a word of English for 3 months.&#34;" [(ngModel)]="description" rows="20"></ion-textarea>
+        </ion-item>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="profilebtn submitprofilebtn">
+    <ion-col style="text-align: center">
+      <button ion-button (click)="submitvolunteerexp()">Submit</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

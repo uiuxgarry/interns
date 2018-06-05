@@ -1,0 +1,50 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Skills</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  
+  <ion-card class="cardsetup">
+    <ion-card-content>
+      <div class="formlogin">
+        <ion-item>
+          <ion-label stacked>Your Language</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+        <div class="chips">
+          <ion-chip #chip1>
+            <ion-label>English</ion-label>
+            <button ion-button clear color="primary" (click)="delete(chip1)">
+              <ion-icon name="close-circle"></ion-icon>
+            </button>
+          </ion-chip>
+          <ion-chip #chip1>
+            <ion-label>Hindi</ion-label>
+            <button ion-button clear color="primary" (click)="delete(chip1)">
+              <ion-icon name="close-circle"></ion-icon>
+            </button>
+          </ion-chip>
+        </div>
+        <ion-item>
+          <ion-label stacked>Your Skills</ion-label>
+          <ion-input type="text" placeholder=""></ion-input>
+        </ion-item>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="profilebtn submitprofilebtn">
+    <ion-col style="text-align: center">
+      <button ion-button (click)="submitskills()">Submit</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

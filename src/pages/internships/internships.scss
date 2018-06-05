@@ -1,0 +1,23 @@
+page-internships {
+    .cardtitle p {
+        font-size: 0.725em !important;
+        display: inline !important;
+        font-weight: 600;
+    }
+    .cardtitle p span{
+        color: #2ada74 !important;
+        font-weight: 400;
+        text-transform: uppercase;  
+    }
+    .location i{
+        background: url(../assets/imgs/locationicon.svg) no-repeat;
+        background-size: 10px;
+        display: inline-block;
+        height: 19px;
+        vertical-align: middle;
+        padding-left: 10px !important;
+    }
+    .location{
+        text-align: left;
+    }
+}

@@ -1,0 +1,16 @@
+page-myapplication {
+    .cardtitle p {
+        font-size: 0.725em !important;
+        display: inline !important;
+        font-weight: 600;
+    }
+    .cardtitle p span{
+        color: #2ada74 !important;
+        font-weight: 400;
+        text-transform: uppercase;  
+    }
+    .grnbrd{
+        border-color: #2ada74 !important;
+        color: #2ada74 !important;
+    }
+}

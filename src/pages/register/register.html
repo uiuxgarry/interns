@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start left>
+      <button ion-button menuToggle>
+        <ion-icon name="back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content id="register">
+<div class="logoimg"><img src="assets/imgs/registerimg.svg"></div>
+<div class="formlogin">
+  <ion-item>
+    <ion-label stacked>Email</ion-label>
+    <ion-input type="email" placeholder="Enter your registered email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Password</ion-label>
+    <ion-input type="password" placeholder="********"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Confirm Password</ion-label>
+    <ion-input type="password" placeholder="********"></ion-input>
+  </ion-item>
+
+  <ion-row>
+    <ion-col style="text-align: center" class="submitbtn">
+      <button ion-button (click)="register()">Register</button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col style="text-align: center">
+      <div class="registerbtn"><p>Already a member?</p> <button ion-button (click)="login()" clear>Login</button></div>
+    </ion-col>
+  </ion-row>
+</div>
+</ion-content>
